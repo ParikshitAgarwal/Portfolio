@@ -1,25 +1,9 @@
-import Image from "next/image"
-import phone from "../assets/phone.png"
-import mail from "../assets/mail.png"
-
 
 const Contact = () => {
   return (
-    <div className="max-w-[1000px] mx-auto flex flex-col lg:flex-row text-white/70 p-8
-    rounded-lg space-y-8 lg:space-y-0 lg:space-x-8" id="contact">
-        <div className="flex justify-center items-center">
-            <ul className="space-y-4">
-                <li className="flex items-center">
-                    <Image src={phone} alt="phone" className="h-[55px] md:h-[110px] w-auto mr-6" />
-                    <p className="md:text-xl">+91 91068 32701</p>
-                </li>
-                <li className="flex items-center">
-                    <Image src={mail} alt="phone" className="h-[55px] md:h-[110px] w-auto mr-6" />
-                    <p className="md:text-xl">parikshitagarwal134@gmail.com</p>
-                </li>
-            </ul>
-        </div>
-        <div className="bg-white/10 p-6 rounded-xl max-w-[550px]">
+    <div className="max-w-full mx-auto flex flex-col items-center text-white/70 p-8 rounded-lg space-y-8 lg:space-y-0 " id="contact">
+        <h1 className="text-4xl mb-8">Let&apos;s create something extraordinary. Reach out today!</h1>
+        <div className="bg-white/10 p-6 rounded-xl">
         <h2 className="text-5xl font-bold text-orange-400 mb-4">Let&apos;s Connect</h2>
         <p className="text-white/70 mb-6">Send me a message and let&apos;s schedule a call!</p>
         <form className="space-y-4" action="https://getform.io/f/bmddypqa" method="POST">

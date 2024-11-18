@@ -69,8 +69,8 @@ const Portfolio = () => {
                                 <div className='w-64 h-[1px] bg-gray-400 my-4'>
 
                                 </div>
-                                <div>  {project?.link !== undefined && <a href={project.link} className='mr-6'>Link</a>}
-                                    {project?.git !== undefined && <a href={project.git} >Git</a>}</div>
+                                <div>  {project?.link !== undefined && <a href={project.link} target='_blank' className='mr-6'>Link</a>}
+                                    {project?.git !== undefined && <a href={project.git} target='_blank' >Git</a>}</div>
                             </div>
                             <div className='flex justify-center items-center'>
                                 <Image src={project.src} alt={project.title} className='h-[200px] w-[350px] md:h-[350px] md:w-[600px] object-fill border rounded border-gray-700' />
