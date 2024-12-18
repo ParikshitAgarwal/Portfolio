@@ -10,25 +10,25 @@ import Image from 'next/image';
 const projects = [
 
     {
-        title: "QuickReads",
-        desc: "A blogging website designed to share and explore blogs. Features include user authentication, blog creation, and a responsive design for seamless user experience across devices.",
-        devStack: "Reactjs, Node.js, hono, Cloudflare Worker, REST API",
-        link: "https://quick-reads-one.vercel.app/", // Add actual link here
-        git: "https://github.com/ParikshitAgarwal/QuickReads", // Add actual link here
+        title: "ResumeCraftr",
+        desc: "A platform that allows users to create and customize professional resumes from multiple templates with seamless PDF generation",
+        devStack: "React Js, Node Js, Express, Supabase, Taiwlind CSS",
+        link: "https://www.resumecraftr.in/", // Add actual link here
         src: project1 // Add actual link here
     },
     {
         title: "Calendly-Zoho Integration",
         desc: "A nodejs service which on creating a booking over calendly stores information over zoho as a lead",
-        devStack: "Node.js, REST API",
-        src: project2
+        devStack: "Node.js, Express, REST API, Webhooks",
+        src: project2,
+        git: 'https://github.com/ParikshitAgarwal/calendly_integration'
     },
     {
         title: "RentalHive",
         desc: "A platform that connects people looking for alike roommates, rooms/flats, or shared housing. It is a fully functional application with login authentication and a user-friendly design.",
         devStack: "ReactJs, Tailwind, Google Firebase, JavaScript, REST API",
         link: "https://rental-hive.vercel.app/", // Add actual link here
-        // git: "Link to GitHub repository", // Add actual link here
+        git: "https://github.com/parikshit456/RentalHive", // Add actual link here
         src: project3 // Add actual link here
     },
 
