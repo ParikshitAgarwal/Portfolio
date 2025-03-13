@@ -24,11 +24,11 @@ const projects = [
         git: 'https://github.com/ParikshitAgarwal/calendly_integration'
     },
     {
-        title: "RentalHive",
-        desc: "A platform that connects people looking for alike roommates, rooms/flats, or shared housing. It is a fully functional application with login authentication and a user-friendly design.",
-        devStack: "ReactJs, Tailwind, Google Firebase, JavaScript, REST API",
-        link: "https://rental-hive.vercel.app/", // Add actual link here
-        git: "https://github.com/parikshit456/RentalHive", // Add actual link here
+        title: "TaskMorph",
+        desc: "an AI-powered productivity tool that converts user thoughts into actionable to-dos, enhancing task management efficiency.",
+        devStack: "Next Js, OpenAI, Supabase, NextAuth, Tailwind CSS",
+        link: "https://taskmorph.vercel.app/", // Add actual link here
+        // git: "https://github.com/parikshit456/RentalHive", // Add actual link here
         src: project3 // Add actual link here
     },
 
